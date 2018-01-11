@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:AppCenterBuildId" x:Class="AppCenterBuildId.AppCenterBuildIdPage">
+<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <Label FontSize="60" TextColor="Teal" Text="{Binding AppBuildId}" />
+        </StackLayout>
+</ContentPage>
